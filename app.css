@@ -1,0 +1,47 @@
+
+
+@media (min-width:500px)   {
+    header{
+        display:flex;
+        flex-direction: row;
+        font-size: 100%;
+        
+        
+        
+    }
+
+    nav, nav ul{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: auto;
+        
+    }
+
+    header a{
+        border-top: none;
+    }
+
+
+
+    .cards li{
+        
+        margin-right: 10px;
+        width: 350px;
+    }
+
+    ul.cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        display: flex;
+        padding-right: 0;
+    }
+
+    .sidebar{
+        margin-top: 1em;
+    }
+}
